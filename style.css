@@ -1,0 +1,135 @@
+
+body{
+    background:#f0f2f5;
+    color:#1c1e21;
+    font-size: 25px; 
+    display:flex;
+    flex-direction: column;
+}
+
+#container{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 32%;
+    font-family: arial;
+    font-size:24px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+   
+}
+.card img{
+    margin-left:-30px;
+}
+
+.card2{
+    display:flex; 
+    flex-direction: column;
+    height: 50%;
+
+}
+.card-inner{
+    background:#fff;
+    padding: 10px;
+    width: min(90vw, 360px);
+    border-radius: 10px;
+    padding-block-start: 10px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.10);
+    margin-right: 5px;
+    
+    
+}
+.card-info{
+    margin-top:20px;
+    font-size:14px;
+    text-align: -webkit-center;
+    font-family: arial;
+
+}
+
+input{
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2px;
+    width: 90%;
+    margin-top: 5px;
+    border:1px solid  rgb(218, 221, 225);
+    
+}
+div .enter{
+    width: 99%;
+    margin-left: 5px;
+}
+.botton{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding:13px;
+    margin:0 0 0 -2px;
+    margin-top: 5px;
+    border-radius: 6px;
+    background:#1877f2;
+    color:#ffffff;
+    width: 100%;
+    font-size: 20px;
+    border:none;
+    
+    
+}
+.button {
+    padding:13px;
+    margin-top:8px;
+    margin:2 0 0 -2px;
+    background:#ffffff;
+    color:#1877f2;
+    width: 100%;
+    font-size: 14px;
+    border:none;
+    
+}
+div .separacao{
+    align-items: center;
+    border-bottom:1px solid rgb(218, 221, 225) ;
+    display: flex;
+    margin: 20px 16px;
+    text-align:center;
+}
+
+div .criation{
+
+display:flex;
+justify-content:center;
+
+}
+.criation1{
+    display:block;
+    padding:16px;
+    margin-top: 5px;
+    border-radius: 6px;
+    background:#42b72a;
+    color:#ffffff;
+    width: 50%;
+    font-size:17px;
+    place-content: center;
+    border:none;
+}
+.pag{
+    align-items:column;
+}
+@media (max-width: 768px) {
+   #container {
+    display:flex ;
+    flex-direction: column;
+}
+}
